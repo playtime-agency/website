@@ -24,8 +24,8 @@ import logo from "../assets/images/logo.png";
 
 const navItems = [
   { title: "Home", path: "/" },
-  { title: "About", path: "/#about" },
-  { title: "Portfolio", path: "/portfolio" },
+  // { title: "About", path: "/#about" },
+  // { title: "Portfolio", path: "/portfolio" },
 ];
 
 const navItemsRight = [

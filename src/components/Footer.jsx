@@ -9,15 +9,15 @@ import {
   Link,
   Divider,
 } from "@mui/material";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import TelegramIcon from "@mui/icons-material/Telegram";
+import RedditIcon from "@mui/icons-material/Reddit";
 import { useDarkMode } from "../context/DarkModeContext";
 
 const navItemsRight = [
-  { icon: <LinkedInIcon />, path: "https://linkedin.com" },
-  { icon: <TwitterIcon />, path: "https://twitter.com" },
-  { icon: <InstagramIcon />, path: "https://instagram.com" },
+  { icon: <InstagramIcon />, path: "https://instagram.com/playtime.of.agency" },
+  { icon: <TelegramIcon />, path: "https://t.me/PlayTime_agency" },
+  { icon: <RedditIcon />, path: "https://reddit.com" },
 ];
 
 const Footer = () => {

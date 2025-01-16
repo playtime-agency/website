@@ -22,7 +22,7 @@ const FAQs = () => {
     {
       question: "What services does your marketing agency offer?",
       answer:
-        "Our agency offers a comprehensive range of services including digital marketing, brand strategy and development, marketing analytics and reporting, public relations, event marketing, marketing automation and mobile marketing.",
+        "Our agency offers a comprehensive range of services including digital marketing, brand strategy and development, marketing analytics and reporting, public relations, account management, marketing automation and mobile marketing.",
     },
     {
       question: "How does your agency approach client projects?",
