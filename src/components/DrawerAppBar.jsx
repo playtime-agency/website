@@ -32,7 +32,7 @@ const navItemsLeft = [
 
 const navItems = [
   { title: "Home", path: "/" },
-  { title: "Portfolio", path: "/portfolio" },
+  // { title: "Portfolio", path: "/portfolio" },
   { title: "Contact", path: "/contactUs" },
 ];
 
@@ -98,7 +98,7 @@ function DrawerAppBar(props) {
       </Box>
       <Divider />
       <List>
-        {navItems.map((element, index) => (
+        {navItemsLeft.map((element, index) => (
           <ListItem key={index} disablePadding>
             <Link
               to={element.path}

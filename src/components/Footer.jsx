@@ -33,6 +33,7 @@ const Footer = () => {
           backgroundColor: darkMode ? "#090808" : "#f6fbf6",
           color: "white",
           py: 3,
+          display: { xs: "none", md: "block" },
         }}
       >
         <Container>
