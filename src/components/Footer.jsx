@@ -17,7 +17,7 @@ import { useDarkMode } from "../context/DarkModeContext";
 const navItemsRight = [
   { icon: <InstagramIcon />, path: "https://instagram.com/playtime.of.agency" },
   { icon: <TelegramIcon />, path: "https://t.me/PlayTime_agency" },
-  { icon: <RedditIcon />, path: "https://reddit.com" },
+  { icon: <RedditIcon />, path: "https://reddit.com/user/PlayTime-Agency" },
 ];
 
 const Footer = () => {

@@ -16,12 +16,13 @@ import useScrollTrigger from "@mui/material/useScrollTrigger";
 import Slide from "@mui/material/Slide";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import XIcon from "@mui/icons-material/X";
-import InstagramIcon from "@mui/icons-material/Instagram";
 // import { useDarkMode } from '../context/DarkModeContext';
 import SwitchBtn from "./SwitchBtn.jsx";
 import { GenLogoWhiteIcon } from "../assets/icons/index.js";
 import logo from "../assets/images/logo.png";
-
+import InstagramIcon from "@mui/icons-material/Instagram";
+import TelegramIcon from "@mui/icons-material/Telegram";
+import RedditIcon from "@mui/icons-material/Reddit";
 const navItems = [
   { title: "Home", path: "/" },
   // { title: "About", path: "/#about" },
@@ -29,9 +30,9 @@ const navItems = [
 ];
 
 const navItemsRight = [
-  { icon: <LinkedInIcon />, path: "https://linkedin.com" },
-  { icon: <XIcon />, path: "https://twitter.com" },
-  { icon: <InstagramIcon />, path: "https://instagram.com" },
+  { icon: <InstagramIcon />, path: "https://instagram.com/playtime.of.agency" },
+  { icon: <TelegramIcon />, path: "https://t.me/PlayTime_agency" },
+  { icon: <RedditIcon />, path: "https://reddit.com/user/PlayTime-Agency" },
 ];
 
 function HideOnScroll(props) {
