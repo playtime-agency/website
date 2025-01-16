@@ -73,12 +73,12 @@ const TextBanner = () => {
                       color: "#c9c7c7",
                     }}
                   >
-                    Empowering brands to thrive, here at PlayTime, we specialize
-                    in helping creators maximize their potential and earnings.
+                    Achieve outstanding results with PlayTime Agency - your
+                    expert partner for OnlyFans success.
                     <br />
-                    Our team provides comprehensive management services,
-                    including content strategy, audience growth, account
-                    management, and marketing expertise.{" "}
+                    Skip the guesswork with our expert marketing, management,
+                    audience growth strategies, and fan engagement. Focus on
+                    creating and earning more while we handle everything else.{" "}
                   </Typography>
                 </Box>
               </Container>

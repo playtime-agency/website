@@ -15,17 +15,17 @@ import {
 } from "../assets/images";
 
 const disc =
-  "Empowering accounts with innovative strategies for success. We elevate your online presence and engage your audience effectively.";
+  "Dedicated PlayTime employee will be available to support you 24/7. Our highly skilled chatters work tirelessly around the clock to engage with fans and boost your earning potential. With years of proven experience we are your partner for success and growth on OnlyFans.";
 const disc2 =
-  "Transform your brand's digital presence with our creative digital marketing solutions. From captivating content to targeted campaigns.";
+  "Transform your brand's digital presence with our creative digital marketing solutions. From captivating content to targeted campaigns we dedicate ourselves to obtaining maximum reach and lead generation and retention.";
 const disc3 =
-  "We dedicate ourselves to our clients with transparent and robust analytics and reporting services.";
+  "Comprehensive review of your entire account, including performance, earnings, chats, and overall setup. Transparent and in-depth analytics and reporting services to keep you informed about your account's performance and progress at every step.";
 
 const projects = [
   {
     id: 1,
     image: MarketImage3,
-    title: "Account Strategy and Development",
+    title: "Account Management",
     description: disc,
     icon: <DesignServicesIcon sx={{ fontSize: "5rem", color: "#00c062" }} />,
   },
@@ -39,21 +39,22 @@ const projects = [
   {
     id: 3,
     image: MarketImage2,
-    title: "Analytics and Reporting",
+    title: "Account Audit and Analytics",
     description: disc3,
     icon: <SupportAgentIcon sx={{ fontSize: "5rem", color: "#00c062" }} />,
   },
 ];
 
 const cardStyles = {
-  // width: {xs:'300px', md:'400px'},
   maxWidth: { xs: 300, md: 400 },
-  height: { xs: "500px", md: "460px" },
+  minHeight: { xs: "500px", md: "460px" }, // Set a minimum height
+  height: "auto", // Allow height to expand based on content
   borderRadius: "25px",
   backgroundColor: "#212427",
   backdropFilter: "blur(28px)",
   opacity: 0.8,
   color: "white",
+  paddingBottom: { xs: "20px", md: "30px" },
 };
 
 const Services = () => {

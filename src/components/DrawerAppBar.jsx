@@ -98,7 +98,7 @@ function DrawerAppBar(props) {
       </Box>
       <Divider />
       <List>
-        {navItemsLeft.map((element, index) => (
+        {navItems.map((element, index) => (
           <ListItem key={index} disablePadding>
             <Link
               to={element.path}
