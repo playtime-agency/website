@@ -13,7 +13,7 @@ const LoadingScreen = () => {
       }}
     >
       {/* Display the logo image */}
-      <img src={loading} alt="Your Logo" width="full" />{" "}
+      <img src={loading} alt="Your Logo" width="500px" />{" "}
       {/* Adjust width as needed */}
     </Box>
   );

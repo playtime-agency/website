@@ -1,10 +1,9 @@
-import React, {useEffect, useState} from 'react'
-import { DarkModeProvider } from '../context/DarkModeContext'
-import HomePageComponents from '../components/HomePageComponents'
-import LoadingScreen from '../components/LoadingScreen'
+import React, { useEffect, useState } from "react";
+import { DarkModeProvider } from "../context/DarkModeContext";
+import HomePageComponents from "../components/HomePageComponents";
+import LoadingScreen from "../components/LoadingScreen";
 
 const Home = () => {
-  
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -22,7 +21,7 @@ const Home = () => {
         {loading ? <LoadingScreen /> : <HomePageComponents />}
       </DarkModeProvider>
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
